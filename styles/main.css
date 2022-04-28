@@ -1,0 +1,7 @@
+#canvas-container {
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    border: solid black 8px;
+}
