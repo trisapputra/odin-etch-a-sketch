@@ -21,7 +21,7 @@ defaultButton.addEventListener('click', () => {
 
         const gridItemStyle = document.querySelectorAll('.gridItem')
         gridItemStyle.forEach( function(item) {
-            item.setAttribute('style','flex-grow: 1')
+            item.setAttribute('style','flex-grow : 1; border : 0.5px solid skyblue')
             item.addEventListener('mouseover', () => {
                 item.style.backgroundColor = 'red';
             })
