@@ -3,6 +3,12 @@ defaultButton.addEventListener('click', () => {
     
     const canvasContainer = document.getElementById("canvas-container");
 
+    // while loops prevent grid item recursion
+    while(canvasContainer.firstChild) {
+        canvasContainer.removeChild(canvasContainer.firstChild);
+    }
+
+    
     for (var i = 0; i < 16; i++){
         const div = document.createElement("div");
         div.classList.add("canvasGrid");
@@ -29,4 +35,4 @@ defaultButton.addEventListener('click', () => {
 
     })
 
-});
+})
