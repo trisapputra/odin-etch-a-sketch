@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 
+.content-container {
+    display: flex;
+}
+
 #canvas-container {
     width: 480px;
     height: 480px;
@@ -10,11 +14,11 @@ h1 {
     border: solid black 8px;
     margin: auto;
 }
-
+/* 
 #button-container {
     display: flex;
     justify-content: space-evenly;
-}
+} */
 
 div input{
     display: block;
