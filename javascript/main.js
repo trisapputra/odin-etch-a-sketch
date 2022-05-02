@@ -29,7 +29,7 @@ defaultButton.addEventListener('click', () => {
         gridItemStyle.forEach( function(item) {
             item.setAttribute('style','flex-grow : 1; border : 0.5px solid skyblue')
             item.addEventListener('mouseover', () => {
-                item.style.backgroundColor = 'red';
+                item.style.backgroundColor = 'gray';
             })
         })
 
@@ -87,7 +87,7 @@ submitButton.addEventListener('click', () => {
         gridItemStyle.forEach( function(item) {
             item.setAttribute('style','flex-grow : 1; border : 0.5px solid skyblue')
             item.addEventListener('mouseover', () => {
-                item.style.backgroundColor = 'red';
+                item.style.backgroundColor = 'gray';
             })
         })
 

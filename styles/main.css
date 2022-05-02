@@ -4,6 +4,7 @@ h1 {
 
 .content-container {
     display: flex;
+    justify-content: center;
 }
 
 #canvas-container {
