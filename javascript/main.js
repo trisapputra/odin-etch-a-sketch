@@ -42,9 +42,28 @@ const submitButton = document.getElementById('submit-button')
 
 submitButton.addEventListener('click', () => {
     
-    const inputValue = document.getElementById('input-value')
+    const inputValue = document.getElementById('input-value');
 
-    console.log(typeof(Number(inputValue.value)));
+    const gridAmount = Number(inputValue.value);
+
+    if (gridAmount % 1 != 0) {
+        alert("invalid value")
+    } else if ( gridAmount < 0 ){
+        alert( "invalid value")
+    } else if ( gridAmount > 100 ){
+        alert("invalid value")
+    } else {
+        ole(gridAmount)
+    }
+    
+    // function con (x) {
+    //     return console.log(x);
+    // }
+
+
+    function ole (para) {
+        return console.log(para)}
+
 
     // // while loops prevent grid item recursion
     // while(canvasContainer.firstChild) {
