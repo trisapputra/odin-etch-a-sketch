@@ -7,12 +7,11 @@ h1 {
 }
 
 #canvas-container {
-    width: 480px;
-    height: 480px;
+    width: 640px;
+    height: 640px;
     display: flex;
     flex-direction: column;
     border: solid black 8px;
-    margin: auto;
 }
 /* 
 #button-container {
