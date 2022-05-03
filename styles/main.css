@@ -25,8 +25,50 @@ h1 {
 } */
 
 #button-container {
-    padding-right: 32px;
+    margin-right: 32px;
+    border: solid black 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 430px;
 }
+
+#default-button {
+    border: solid black 4px;
+    padding: 8px;
+    font-size: 18px;
+    margin-left: 36px;
+    margin-right: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    border: solid black 4px;
+    font-size: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+
+
+.custom-card {
+    border: solid black 4px;
+    margin-top: 22px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.custom-card label,
+#input-value,
+#submit-button {
+    margin: 8px;
+}
+
+
 
 #canvas-container {
     margin-right: 220px;
